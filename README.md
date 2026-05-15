@@ -1,16 +1,74 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PC Monitor Dashboard
 
-Currently, two official plugins are available:
+A lightweight full stack PC monitoring dashboard built with React, Express, and Node.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was created to learn:
+- React state management
+- API communication
+- Express backend development
+- Async JavaScript workflows
+- Frontend/backend architecture
+- Real-time system telemetry
 
-## React Compiler
+The dashboard pulls live system information from the host machine and displays it in a responsive React UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Live CPU usage monitoring
+- Live RAM usage monitoring
+- React frontend with dynamic rendering
+- Express backend API
+- Real system telemetry using `systeminformation`
+- Async API fetching with `fetch()`
+- State-driven UI updates with React hooks
+
+---
+
+## Tech Stack
+
+### Frontend
+- React
+- Vite
+- JavaScript
+
+### Backend
+- Node.js
+- Express
+- systeminformation
+
+---
+
+## Project Structure
+
+text
+pc_monitor/
+├── src/                # React frontend
+├── server/             # Express backend
+├── package.json
+
+
+**Future Improvements**
+
+Disk usage monitoring
+CPU temperature monitoring
+Network statistics
+Auto-refresh polling
+Historical charts
+Docker/container monitoring
+Authentication
+
+**What I Learned**
+
+This project helped me better understand:
+
+React hooks (useState, useEffect)
+Async JavaScript (fetch, await, .then)
+Backend API design
+JSON data structures
+State-driven frontend rendering
+Full stack request/response architecture
+Responsive mobile layout
